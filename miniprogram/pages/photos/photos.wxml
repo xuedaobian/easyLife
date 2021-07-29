@@ -1,0 +1,9 @@
+<view>
+  <view class="img-background">
+    <image wx:for="{{photos}}" src="{{item.fileID}}" 
+    data-index="{{index}}" data-src="{{item.fileID}}" 
+    wx:key="_id" class="photo" bindtap="preview" 
+    bindlongpress="delPhotos"></image>
+  </view>
+  <button size="mini" type="primary" class="addphoto" bindtap="addPhoto">上传图片</button>
+</view>

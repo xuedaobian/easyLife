@@ -1,0 +1,14 @@
+/* miniprogram/pages/photos/photos.wxss */
+.addphoto {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.img-background {
+  text-align: center;
+}
+.photo {
+  margin: 10rpx;
+  border: 1px;
+}

@@ -1,0 +1,6 @@
+<view bind:tap="gotoPhotos">
+  <image src="./../../images/dm1.jpeg" class="menu-icon" mode="aspectFit"/>
+  <text class="" selectable="false" space="false" decode="false">
+    photos
+  </text>
+</view>

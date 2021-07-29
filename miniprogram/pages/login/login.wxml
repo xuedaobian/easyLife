@@ -1,0 +1,9 @@
+
+  <van-button 
+  type="primary" 
+  open-type="getUserInfo" 
+  bindgetuserinfo="getUserInfo" 
+  class="loginbtn">登录授权
+</van-button>
+
+
