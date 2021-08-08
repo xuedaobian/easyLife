@@ -1,5 +1,11 @@
-/* miniprogram/pages/index/index.wxss */
-.menu-icon {
-  width: 100rpx;
-  height: 80rpx;
+page {
+  padding: 20px 20rpx;
+}
+.menu-countar {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu-item {
+  width: 160rpx;
+  margin: 20rpx 20rpx;
 }

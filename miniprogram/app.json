@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/photos/photos",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/classify/classify",
+    "pages/sound/sound"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

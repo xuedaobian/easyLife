@@ -1,4 +1,4 @@
-// miniprogram/pages/index/index.js
+// miniprogram/pages/classify/classify.js
 Page({
 
   /**
@@ -6,24 +6,6 @@ Page({
    */
   data: {
 
-  },
-  // 跳转页面
-  changeRoute(event) {
-    const path = event.currentTarget.dataset.path;
-    const PATH = `/pages/${path}/${path}`;
-    wx.getStorage({
-      key: "openid",
-      success (res) {
-          wx.navigateTo({
-            url: PATH,
-          })
-      },
-      fail (err) {
-        wx.navigateTo({
-          url: '/pages/login/login?path='+PATH,
-        })
-      }
-    })
   },
 
   /**

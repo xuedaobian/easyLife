@@ -1,0 +1,18 @@
+<van-button class="soundbtn" type="{{record.type}}" round bindlongpress="handleRecordStart"
+  bindtouchmove="handleTouchMove" bindtouchend="handleRecordStop">{{record.text}}</van-button>
+<view>
+  最长支持10分钟录音，完成后可保存至本地或云端
+</view>
+<div class="record-list">
+  <view wx:for="{{audioList}}" wx:key="id" class="itemscontatir">
+    <view class="audio-contatir" data-src="{{item.src}}" bindtap="playAudio">
+      <image src="./../../images/soundsPlay.png" class="playicon"></image>
+      <text>{{item.duration}}''</text>
+    </view>
+    <view class="cloudorlocal">
+      <van-button type="primary" size="mini">上传云端</van-button>
+    <van-button type="primary" size="mini">存至本地</van-button> 
+    </view>
+
+  </view>
+</div>
